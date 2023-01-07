@@ -57,6 +57,7 @@ def submit():
 if 'output' not in st.session_state:
     st.session_state['output'] = '  '
 
+st.set_page_config(page_title="TourX - Your AI based personal Guide", page_icon="✈️")
 st.title('TourX - Your AI based personal Guide')
 st.subheader('Let us plan your trip!')
 
